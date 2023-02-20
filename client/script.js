@@ -149,7 +149,7 @@ const handleSubmit = async (e) => {
   // messageDiv.innerHTML = "..."
   loader(messageDiv)
 
-  const response = await fetch('https://codexx-e31u.onrender.com', {
+  const response = await fetch('http://localhost:5000/', {
       method: 'POST',
       headers: {
           'Content-Type': 'application/json',
